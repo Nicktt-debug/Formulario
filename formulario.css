@@ -1,0 +1,22 @@
+#InformacionBasica {
+    background: orange;
+}
+#Nacionalidad {
+    background: lightgreen
+}
+#estudios {
+    background: lightpink
+}
+#estudiosdrop {
+  background-color: lightgrey;
+}
+#Idiomas {
+    background: skyblue
+}
+#Botones {
+    background: lightgrey
+}
+h1 {
+    color: lightgreen;
+    text-align: center
+}

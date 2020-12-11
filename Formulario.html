@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Formulario</title>
+  <meta charset="utf-8">
+  <link href='formulario.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <h1>Curriculum</h1>
+  <form action='pagina2.html' method='post'>
+    <fieldset id='InformacionBasica'>
+      <legend><b><big>Informacion Basica</big></b></legend>
+      <label>Nombre</label>
+      <br>
+      <input type='text' name='nombre' size='100'>
+      <br>
+      <label>Altura en centimetros</label>
+      <br>
+      <input type='number' name='Altura en centimetros'>
+      <br>
+      <label>Email</label>
+      <br>
+      <input type='email' name='email'>
+      <br>
+      <label>Fecha Nacimiento:</label>
+      <br>
+      <input type='date' name='Fecha de nacimiento'>
+    </fieldset>
+    <fieldset id='Nacionalidad'>
+      <legend><b><big>Nacionalidad</big></b></legend>
+      <input type='radio' name='nacionalidad' value='Española' checked='checked'>Española
+      <input type='radio' name='nacionalidad' value='Comunitario(UE)'>Comunitario(UE)
+      <input type='radio' name='nacionalidad' value='No comunitario'>No comunitario
+    </fieldset>
+    <fieldset id='estudios'>
+      <legend><b><big>Estudios</big></b></legend>
+      <select id='estudiosdrop' name='estudios'>
+        <option value='Eso'>Eso</option>
+        <option value='Grado Medio'>Grado Medio</option>
+        <option value='Grado Superior'>Grado superior</option>
+        <option value='Bachillerato'>Bachillerato</option>
+        <option value='Otros'>Otros</option>
+      </select>
+    </fieldset>
+    <fieldset id='Idiomas'>
+      <legend><b><big>Idiomas</big></b></legend>
+      <input type='checkbox' name='idiomas' value='Catalan' checked='checked'>Catalan
+      <input type='checkbox' name='idiomas' value='Castellano'>Castellano
+      <input type='checkbox' name='idiomas' value='Ingles'>Ingles
+      <input type='checkbox' name='idiomas' value='Chino'>Chino
+    </fieldset>
+    <fieldset id='Botones'>
+      <input type='submit' name='Enviar'>
+      <input type='reset' name='cancelar'>
+    </fieldset>
+  </form>
+</body>
+
+</html
